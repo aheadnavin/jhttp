@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_aheadnavin_jhttp_1704213391812-pr-trigger-input-set
+  identifier: Build_aheadnavin_jhttp_1704213391812prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Practice
+  pipeline:
+    identifier: Build_aheadnavin_jhttp_1704213391812
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
