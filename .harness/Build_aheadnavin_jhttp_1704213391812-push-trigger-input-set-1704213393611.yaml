@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_aheadnavin_jhttp_1704213391812-push-trigger-input-set
+  identifier: Build_aheadnavin_jhttp_1704213391812pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Practice
+  pipeline:
+    identifier: Build_aheadnavin_jhttp_1704213391812
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
